@@ -1,9 +1,9 @@
 #!/bin/bash
 
-read -p "Enter desired Nextcloud admin username (default 'admin'): " admin_user>
+read -p "Enter desired Nextcloud admin username (default 'admin'): " admin_username
 admin_username=${admin_username:-admin}
 
-read -sp "Enter desired Nextcloud admin password (default 'insecure'): " admin_>
+read -sp "Enter desired Nextcloud admin password (default 'insecure'): " admin_password
 
 admin_password=${admin_password:-insecure}
 
