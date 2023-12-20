@@ -13,6 +13,7 @@ You will be prompted to set your nextcloud admin username and password.
 Default values are:
 
 username:admin
+
 password:insecure
 
 Script will pull your ipv4 ip address off of your eth0 connection and add it to NEXTCLOUD_TRUSTED_DOMAINS along with localhost. 
