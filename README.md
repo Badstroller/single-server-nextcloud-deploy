@@ -1,5 +1,5 @@
 # single-server-nextcloud-deploy
-Quick and dirty Nextcloud/Postgres/Redis docket deploy.
+Quick and dirty Nextcloud/Postgres/Redis docker deploy.
 
 Requires docker-compose
 
