@@ -15,5 +15,5 @@ touch ./deployment/redis-session.ini
 
 export ip4=$(/sbin/ip -o -4 addr list eth0 | awk '{print $4}' | cut -d/ -f1)
 
-# Run docker-compose
+# Run docker-compose detached, remove -d flag to see docker-compose output
 docker-compose up -d
