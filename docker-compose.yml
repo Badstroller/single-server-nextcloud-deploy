@@ -27,9 +27,7 @@ services:
       - redis
     volumes:
       - ./deployment/nextcloud:/var/www/html
-      - "./deployment/redis-session.ini:/usr/local/etc/php/conf.d/redis-session.
-i
-ni"
+      - "./deployment/redis-session.ini:/usr/local/etc/php/conf.d/redis-session.ini"
     restart: always
     environment:
       POSTGRES_HOST: db
